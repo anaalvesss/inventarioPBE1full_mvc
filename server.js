@@ -18,5 +18,5 @@ app.use((req, res) => {
     });
 });
 app.listen(PORT, () => {
-    console.log(`Servidor funcioanando em http://localhost:${PORT}`);
+    console.log(`Servidor funcionando em http://localhost:${PORT}`);
 });
