@@ -12,9 +12,12 @@
  1- Clonar o repositório, contendo o server.js, dados.json
 
  2- Execute os comandos no terminal do node ou cmd (Command Prompt):
- npm install
- npm init -y
- npm run dev 
+
+ - npm install
+
+ - npm init -y
+
+ -  npm run dev 
 
  3- Utilize o Thunder Client e selecione o botão "New Request", na aba de link, copie e cole o link do servidor que foi requisitado no terminal pelo comando 'npm run dev'. Crie o 'listar' em GET; 'rotateste' em GET; e 'cadastrar' em PUT. Por fim, realize seus testes de servidor!
 
