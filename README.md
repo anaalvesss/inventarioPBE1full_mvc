@@ -23,8 +23,6 @@
 
  ## Prints
 
-![teste_03]
-(./testeThunder.png)
+![teste_03](./testeThunder.png)
 
-![teste_04]
-(./inventario.png)
+![teste_04](./inventario.png)
