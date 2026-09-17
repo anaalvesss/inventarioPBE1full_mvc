@@ -7,7 +7,7 @@ function autoIncrement(){
 
 const create = (req, res) =>{
     const dados = read.body
-    bens.add(dados)
+    dados.add(dados)
     res.status(201).json(dados)
 }
 
