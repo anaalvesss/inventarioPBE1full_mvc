@@ -1,22 +1,15 @@
-const express = require("express");
-const inventarioRoutes = require("./src/routes/inventarioRoutes");
-const app = express();
+const express = require("express")
 
-const PORT = 3000;
-app.use(express.json());
-app.get("/", (req, res) => {
-    res.status(200).json({
-        mensagem: "API de Inventário em funcionamento!",
-        rota: "/inventario"
-    });
-});
-app.use("/inventario", inventarioRoutes);
+const rotaInicial = (req, res) => {
+    res.json("Back-end respondendo")
+}
 
-app.use((req, res) => {
-    res.status(404).json({
-        erro: "Rota não encontrada."
-    });
-});
-app.listen(PORT, () => {
-    console.log(`Servidor funcionando em http://localhost:${PORT}`);
-});
+const app = express()
+app.use(express.json())
+const porta = 3000
+
+app.get('/', rotaInicial)
+
+app.listen(porta, () => {
+    console.log(`Servidor respondendo em: http://localhost:${porta}`)
+})
