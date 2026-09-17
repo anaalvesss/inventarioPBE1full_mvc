@@ -28,8 +28,24 @@
                     <th>Valor</th>
                     <th>Patrimônio</th>
                 </thead>
-                <tbody>
-                    
+                <tbody id="tabela">
+                    <script>
+                        fetch('http://localhost:3000/dados')
+                        .then(resp = resp.json())
+                        .then(resp =>{
+                            resp.forEach(p=>{
+                                const linha = document.createElement('tr')
+                                linha.innerHTML = `
+                                  <td>${p.item}</td>
+                                  <td>${p.local}</td>
+                                  <td>${p.dataRegistro}</td>
+                                  <td>${p.valor}</td>
+                                  <td>${p.patrimonio}</td>
+                                `
+                                tabela.appendChild(linha)
+                            })
+                        })
+                    </script>
                 </tbody>
             </table>
         </section>
