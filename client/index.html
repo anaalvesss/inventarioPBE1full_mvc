@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <input type="text" name="item" placeholder="Nome do item" required>
     <input type="text" name="local" placeholder="Local" required>
     <input type="date" name="dataRegistro" required>
@@ -31,7 +32,7 @@
                 <tbody id="tabela">
                     <script>
                         fetch('http://localhost:3000/dados')
-                        .then(resp = resp.json())
+                        .then(resp => resp.json())
                         .then(resp =>{
                             resp.forEach(p=>{
                                 const linha = document.createElement('tr')
