@@ -21,8 +21,14 @@
 
  4- Execute o arquivo client/index.html com o Live Server e, se preferir, crie um style.css para personalizar o front-end.
 
- ## Prints
-
+ # Prints
+## testes no Thunder Client
+- listar
 ![teste_03](./testeThunder.png)
+- cadastrar
+![teste_03](./cadastrar.png)
+- rotateste
+![teste_03](./rotateste.png)
 
+## Teste Index.html
 ![teste_04](./inventario.png)
