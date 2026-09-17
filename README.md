@@ -23,8 +23,8 @@
 
  ## Prints
 
-- Teste 3
-<img src="testeThunder.png> 
+![teste_03]
+(./testeThunder.png)
 
-- Teste 4
-<img src="inventario.png>
+![teste_04]
+(./inventario.png)
