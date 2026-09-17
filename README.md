@@ -34,4 +34,4 @@
 ![teste_03](./rotateste.png)
 
 ## Teste Index.html
-![teste_04](./inventario.png)
+![teste_04](./inventario.png) 
